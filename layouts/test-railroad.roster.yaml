@@ -1,0 +1,5 @@
+roster: test-railroad
+cars:
+  New model: {model: new-model, addr: '12'}
+trains:
+  Test Train: {cars: [car: New model]}

@@ -1,0 +1,8 @@
+model: new-model
+name: Steam
+kind: locomotive
+scale: N
+length: 120
+decoder: true
+functions:
+  '0': {name: Headlights}

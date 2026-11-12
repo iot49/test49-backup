@@ -1,0 +1,100 @@
+{
+  "version": 4,
+  "id": "0S19O1NsyC8",
+  "layout": {
+    "name": "test-railroad",
+    "scale": "N",
+    "calibration": {
+      "points": [
+        {
+          "px": {
+            "x": 169,
+            "y": 44
+          },
+          "world": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "px": {
+            "x": 1716,
+            "y": 1013
+          },
+          "world": {
+            "x": 2000,
+            "y": 1000,
+            "z": 0
+          }
+        }
+      ],
+      "camera_height_mm": 100
+    },
+    "sensors": [
+      {
+        "id": "C1.A",
+        "x": 429,
+        "y": 544
+      }
+    ],
+    "tracks": [
+      {
+        "nodes": [
+          {
+            "x": 286,
+            "y": 553,
+            "heading": -0.06474954308437252
+          },
+          {
+            "x": 833.5,
+            "y": 517.5,
+            "heading": -0.06474954308437252
+          },
+          {
+            "x": 1381,
+            "y": 482,
+            "heading": -0.06474954308437252
+          }
+        ],
+        "clicks": [
+          {
+            "x": 286,
+            "y": 553
+          },
+          {
+            "x": 1381,
+            "y": 482
+          }
+        ]
+      }
+    ]
+  },
+  "camera": {
+    "resolution": {
+      "width": 1920,
+      "height": 1080
+    }
+  },
+  "images": [
+    {
+      "filename": "capture_0S19OZWIDDM.jpg",
+      "labeled_complete": false,
+      "labels": [
+        {
+          "id": "0S19SGmDlk8",
+          "class": "stock",
+          "provenance": "human",
+          "p0": {
+            "x": 744,
+            "y": 523
+          },
+          "p1": {
+            "x": 1117,
+            "y": 499
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+drawing: test-railroad
+symbols:
+  b1: {kind: block, at: [3, 10], length: 1000}
+  b2: {kind: block, at: [3, 4], length: 1000}
+  b3: {kind: block, at: [3, 8], length: 1000}
+  sw1: {kind: turnout, at: [1, 10]}
+  e1: {kind: terminal, at: [9, 8]}
+  n1: {kind: pin, at: [10, 9], rot: 90}
+  n2: {kind: pin, at: [10, 6], rot: 90}
+  n3: {kind: pin, at: [0, 10], rot: 0}
+  n4: {kind: pin, at: [-2, 9], rot: 90}
+  n5: {kind: pin, at: [-2, 6], rot: 90}
+  n6: {kind: pin, at: [0, 4], rot: 0}
+wires:
+  - [e1.P, b3.B]
+  - {pins: [b1.B, n1.P], connection: j1}
+  - [n1.P, n2.P]
+  - [n2.P, b2.B]
+  - [sw1.straight, b1.A]
+  - [sw1.diverging, b3.A]
+  - [sw1.toe, n3.P]
+  - [n3.P, n4.P]
+  - [n4.P, n5.P]
+  - [n5.P, n6.P]
+  - [n6.P, b2.A]
